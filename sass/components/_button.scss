@@ -1,0 +1,21 @@
+.btn{
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 7px;
+    display: block;
+    &::after{
+        content: "";
+        height: 2px;
+        width: 37px;
+        background-color: $color-primary;
+        display: block;
+    }
+}
+
+a.border{
+    padding: 20px 50px;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+.products{
+    .container{
+        .product__item{
+            display: flex;
+            margin: 100px 0;
+            .text{
+                width: 45%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .product__item2{
+            .text{
+                order: 1;
+            }
+            .product__img{
+                order: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.news{
+    .container{
+        .news__text{
+            padding-top: 80px;
+            p{
+                width: 44%;
+            }
+            h2:before{
+                display: none;
+            }
+        }
+
+        .news__content{
+            display: flex;
+
+            &-item{
+                width: 33%; 
+                .text{
+                    h3{
+                        width: 80%;
+                        height: 85px;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        
+                    }
+
+                    h3:before{
+                        content: "";
+                        width: 83px;
+                        height: 3px;
+                        background-color: $color-primary;
+                        display: block;
+                        margin: 25px 0;
+                    }
+
+                    p{
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}

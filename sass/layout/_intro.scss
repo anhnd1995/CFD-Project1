@@ -1,0 +1,38 @@
+.intro{
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../../img/bg2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    .container{
+        align-items: center;
+        .intro__content{
+            
+            h2{
+                width: 50%;
+
+                &::before{
+                    display:none;
+                }
+            }
+
+            p{
+                width: 55%;
+                color: white;
+            }
+
+            a{
+                font-size: 12px;
+                position: relative;
+                padding-left: 95px;
+                i{
+                    position: absolute;
+                    left: 55px;
+                }
+            }
+            
+        }
+
+    }
+}

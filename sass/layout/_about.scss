@@ -1,0 +1,24 @@
+.about{
+    margin: 100px 0;
+    .container{
+        display: flex;
+
+        .about__content{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .text{
+
+                h2{
+                    width: 300px;
+                }
+                p{
+                    width: 350px;
+                    word-break: keep-all;
+                }
+            }
+        }
+    }
+}
